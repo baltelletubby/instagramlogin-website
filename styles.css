@@ -1,0 +1,55 @@
+
+body {
+	background-color: #fafafa;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+
+.container {
+	max-width: 350px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	max-width: 50%;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+input {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+
+button {
+	background-color: #3897f0;
+	color: #fff;
+	padding: 10px;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.forgot-password {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+a {
+	color: #003569;
+	text-decoration: none;
+}
